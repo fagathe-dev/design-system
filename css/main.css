@@ -1,0 +1,19 @@
+body {
+  font-size: 16px;
+  background-color: #f9fafb;
+  color: #0c0a09;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */
