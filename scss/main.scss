@@ -1,10 +1,10 @@
-@import "base/index.scss";
-@import "utilities/index.scss";
+@import "ui/index.scss";
+
 
 body {
   font-size: $font-size;
-  background-color: $light;
   color: $dark;
+  @extend %bg-primary;
 }
 
 *,
