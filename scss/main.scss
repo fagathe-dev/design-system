@@ -1,5 +1,5 @@
 @import "ui/index.scss";
-
+@import "layout/index.scss";
 
 body {
   font-size: $font-size;
@@ -31,8 +31,3 @@ div:hover {
   cursor: pointer;
 }
 
-.container {
-  margin-block-start: $spacing-12;
-  width: $size-12;
-  padding: 0 $spacing-2_5;
-}

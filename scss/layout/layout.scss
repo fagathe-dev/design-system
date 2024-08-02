@@ -1,0 +1,54 @@
+@import '../base/index.scss';
+
+%container {
+  width: $size-12;
+  margin: 0 auto;
+  width: $size-12;
+}
+%fluid {
+  padding-inline:  $spacing-4;
+}
+
+.container-fluid {
+  @extend %container;
+  @extend %fluid;
+}
+
+.container {
+  @extend %container;
+  @extend %fluid;
+  max-width: 1440px;  
+  @media screen and (max-width: $xxl) {
+    max-width: 1180px;  
+  }
+  @media screen and (max-width: $xl) {
+    max-width: 960px;  
+  }
+  @media screen and (max-width: $lg) {
+    max-width: 760px;  
+  }
+  @media screen and (max-width: $md) {
+    max-width: 500px;  
+  }
+  @media screen and (max-width: $sm) {
+    max-width: $size-12;  
+  }
+}
+
+.section {
+  @extend %container;
+}
+
+.section-fluid {
+  @extend %container;
+  @extend %fluid;
+}
+
+.main {
+  @extend %container;
+}
+
+.main-fluid {
+  @extend %container;
+  @extend %fluid;
+}
